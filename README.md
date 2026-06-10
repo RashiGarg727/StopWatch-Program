@@ -36,6 +36,10 @@ Where:
 * **SS** → Seconds
 * **MS** → Milliseconds
 
+## Preview
+<img width="1917" height="839" alt="image" src="https://github.com/user-attachments/assets/d38deb8b-95c9-4f15-8249-77629eb917fe" />
+
+
 ## Learning Outcomes
 
 Through this project, I practiced:
