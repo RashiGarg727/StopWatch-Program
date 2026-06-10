@@ -1,50 +1,58 @@
-# ⏰ Digital Clock
+# Stopwatch App ⏱️
 
-A simple and responsive **Digital Clock** built using **HTML, CSS, and JavaScript** that displays the current time in **12-hour format (AM/PM)**.
+A simple and responsive Stopwatch App built using **HTML, CSS, and JavaScript**. This project allows users to start, stop, and reset the stopwatch while displaying time in **hours, minutes, seconds, and milliseconds**.
 
 ## Features
 
-* Real-time clock updates every second
-* Clean and responsive user interface
-* Built using **HTML, CSS, and JavaScript**
+* Start the stopwatch
+* Stop/Pause functionality
+* Resume from paused time
+* Reset stopwatch to `00:00:00:00`
+* Real-time display updates
+* Clean and responsive UI
 
 ## Technologies Used
 
-* **HTML** – Structure of the webpage
+* **HTML** – Structure of the application
 * **CSS** – Styling and layout
-* **JavaScript** – Time logic and dynamic updates
-
-## Project Preview
-
-This project displays the current time with a visually appealing background and updates automatically every 10 milliseconds.
-
+* **JavaScript** – Stopwatch logic and functionality
 
 ## How It Works
 
-The digital clock uses JavaScript's `Date()` object to fetch the current system time. The time is converted into **12-hour format** and displayed along with **AM/PM**. The clock updates every second using `setInterval()`.
+The stopwatch uses JavaScript timing functions to track elapsed time accurately.
 
-## How to Run the Project
+* **Start** → Begins the stopwatch
+* **Stop** → Pauses the stopwatch without resetting time
+* **Reset** → Clears the timer and resets display to default
 
-1. Download or clone the repository:
+Time is displayed in the following format:
 
-```bash
-git clone https://github.com/your-username/digital-clock.git
-```
+`HH:MM:SS:MS`
 
-2. Open the project folder.
+Where:
 
-3. Run the `index.html` file in your browser.
+* **HH** → Hours
+* **MM** → Minutes
+* **SS** → Seconds
+* **MS** → Milliseconds
+
+## Learning Outcomes
+
+Through this project, I practiced:
+
+* DOM Manipulation
+* JavaScript Functions
+* Event Handling
+* Timing Functions (`setInterval`, `Date.now()`)
+* State Management in JavaScript
 
 ## Future Improvements
 
-* Add date display
-* Add dark/light mode
-* Add multiple timezone support
-* Add alarm functionality
+* Add Lap Timer functionality
+* Dark/Light Mode toggle
+* Keyboard shortcuts for controls
+* Better animations and UI enhancements
 
-## Author
-
-## Author
+---
 
 Developed with ❤️ by **Rashi**
-
